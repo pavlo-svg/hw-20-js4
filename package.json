@@ -1,0 +1,27 @@
+{
+  "name": "hw-20-js4",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /hw-20-js4/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavlo-svg/hw-20-js4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pavlo-svg/hw-20-js4/issues"
+  },
+  "homepage": "https://github.com/pavlo-svg/hw-20-js4#readme",
+  "dependencies": {
+    "parcel": "^2.16.4"
+  }
+}
