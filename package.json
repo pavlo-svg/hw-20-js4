@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/pavlo-svg/hw-20-js4#readme",
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.16.4"
   }
 }
